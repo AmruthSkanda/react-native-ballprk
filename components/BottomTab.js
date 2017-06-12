@@ -6,7 +6,7 @@ const icons = ["home","search","inbox","user-o"];
 class BottomTab extends Component{
 	render(){
 		let iconsView = icons.map((icon)=>{
-			return(
+			return( 
 				<Icon name={icon} style={styles.iconStyle}/>
 			)
 		});

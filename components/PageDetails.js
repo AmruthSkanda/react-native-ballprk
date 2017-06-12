@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {View,Text,StyleSheet,TouchableHighlight} from 'react-native';
 import Icon from 'react-native-fa-icons';
-import pageData from './utils/store';
+import pageData from '../utils/store';
 const profileData = pageData.Athelets[0].AthleteProfile;
 
 class PageDetails extends Component{
@@ -30,7 +30,7 @@ class PageDetails extends Component{
 					<Text style={styles.quoteLeft}>
 		                <Icon name="quote-left" />
 		                <Text style={styles.quoteText}>  
-		                	{profileData.quotes[0].quote}
+		                	{"  "+profileData.quotes[0].quote}
 		                </Text>
 		            </Text>
 		            <Text style={styles.quotedBy}>{profileData.quotes[0].quotedBy}</Text>

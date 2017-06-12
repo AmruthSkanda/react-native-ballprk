@@ -13,7 +13,7 @@ import Icon from 'react-native-fa-icons';
 import ParallaxScrollView from 'react-native-parallax-scroll-view';
 import PageDetails from './PageDetails';
 import BottomTab from './BottomTab';
-import pageData from './utils/store';
+import pageData from '../utils/store';
 const profileData = pageData.Athelets[0].AthleteProfile;
 
 const window = Dimensions.get('window');
